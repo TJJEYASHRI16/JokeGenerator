@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joke Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Titan+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+
+<body>
+    <h1>Joke Generator</h1>
+    <form action="/generateJoke" method="GET" class="buttons">
+        <button type="submit" value="programming" name="choice">software</button>
+        <button type="submit" value="dark" name="choice">dark</button>
+        <button type="submit" value="pun" name="choice">pun</button>
+        <button type="submit" value="any" name="choice">random</button>
+    </form>
+    <div id="jokeContainer" class="hidden">
+
+
+        <h2>Joke Below </h2>
+        <%if(locals.jokeObj){%>
+            <p>
+                <%= jokeObj %>
+            </p>
+            <%}%>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+html {
+    height: 100%;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+   text-align: center;
+   background-color: #a2490e;
+   background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='40' height='40' patternTransform='scale(1) rotate(15)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(191, 100%, 80%, 1)'/><path d='M27.26 5.415c-.55 0-.9.55-.65 1l2.45 4.75c.2.5.85.5 1.15.1l3.15-4.5c.3-.4 0-1.05-.55-1.1zM10.689 8.068c-.406-.051-.822.31-.778.748l.5 5.3c.05.5.6.8 1.05.5l4.55-3.05c.45-.3.4-.95-.05-1.15l-5.1-2.3a.605.605 0 0 0-.172-.048zM2.406 24.584a.635.635 0 0 0-.345.081l-4.75 2.4c-.45.2-.5.85-.1 1.15l4.45 3.15c.4.3 1 0 1.1-.5l.3-5.55c0-.412-.31-.712-.655-.73zm40 0a.635.635 0 0 0-.345.081l-4.75 2.4c-.45.2-.5.85-.1 1.15l4.45 3.15c.4.3 1 0 1.1-.5l.3-5.55c0-.412-.31-.712-.655-.73zm-22.17 3.108a.744.744 0 0 0-.675.723l.4 5.55c.05.5.6.8 1.05.5l4.45-2.95c.45-.25.4-.9-.05-1.15l-4.8-2.6a.702.702 0 0 0-.376-.073z'  stroke-width='1' stroke='none' fill='hsla(33, 77%, 53%, 1)'/></pattern></defs><rect width='800%' height='800%' transform='translate(-35,-26)' fill='url(%23a)'/></svg>")
+}
+  
+  h1 {
+    display: inline;
+    font-size: 5rem;
+    text-align: center;
+    color: #3669ea;
+    background-color: white;
+  }
+  
+  h2 {
+    color: #3669ea;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  button {
+    font-size: 2rem;
+  }
+  
+  .buttons button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    padding: 0;
+    margin: 0 10px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .buttons button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .buttons button img {
+    width: 100px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  #jokeContainer {
+    background-color: white;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #jokeTitle {
+    color: #e26e5c;
+  }
+  
+  p {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  p{
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
